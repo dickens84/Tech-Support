@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="">2fbf239c5e6306106f0508b4e7e00152</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:13:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7bf239c916306107e5d98414c0d5452</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>par_dashboard_tab_a7bf239c916306107e5d98414c0d5452</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:13:24</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>par_dashboard_tab_a7bf239c916306107e5d98414c0d5452</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="">2fbf239c5e6306106f0508b4e7e00152</dashboard><name>Tab</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-18 16:13:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7bf239c916306107e5d98414c0d5452</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tab</sys_name><sys_overrides/><sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>par_dashboard_tab_a7bf239c916306107e5d98414c0d5452</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-18 16:13:24</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>1511460396</payload_hash>
+        <record_name>Tab</record_name>
+        <reverted_from/>
+        <source>abf0f52147220210dc849530116d43b1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-02 11:09:13</sys_created_on>
+        <sys_id>dce0331083a3061020fac310feaad36d</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fd8a39fa80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>9ce03310f3a306101c0e37fdbd4df46d</update_guid>
+        <update_guid_history>9ce03310f3a306101c0e37fdbd4df46d:1511460396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tab">58e0331083a3061020fac310feaad36e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:18:21</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>1f9fc1267f4c4b43862b57ec75474aa1</sys_id>
+        <sys_metadata>a7bf239c916306107e5d98414c0d5452</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_a7bf239c916306107e5d98414c0d5452</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_a7bf239c916306107e5d98414c0d5452">dce0331083a3061020fac310feaad36d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

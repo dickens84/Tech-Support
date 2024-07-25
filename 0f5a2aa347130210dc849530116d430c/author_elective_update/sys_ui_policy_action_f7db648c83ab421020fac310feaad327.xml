@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>category</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 07:19:44</sys_created_on>
+        <sys_id>f7db648c83ab421020fac310feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f7db648c83ab421020fac310feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 07:19:44</sys_updated_on>
+        <table>x_1107936_tech_sup_tech_sup</table>
+        <ui_policy display_value="Tech support Form - Support type is None">9206d72347170210dc849530116d43c6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=f7db648c83ab421020fac310feaad327"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_ui_policy_action_f7db648c83ab421020fac310feaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>category</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 07:19:44</sys_created_on><sys_id>f7db648c83ab421020fac310feaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>category</sys_name><sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>sys_ui_policy_action_f7db648c83ab421020fac310feaad327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 07:19:44</sys_updated_on><table>x_1107936_tech_sup_tech_sup</table><ui_policy display_value="Tech support Form - Support type is None">9206d72347170210dc849530116d43c6</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=f7db648c83ab421020fac310feaad327"/></record_update>]]></payload>
+        <payload_hash>739003736</payload_hash>
+        <record_name>category</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 07:19:44</sys_created_on>
+        <sys_id>b40cec0c83ab421020fac310feaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bf8fb4730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 07:19:44</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b80cec0c42ab42105f667351932dcaa3</update_guid>
+        <update_guid_history>b80cec0c42ab42105f667351932dcaa3:739003736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 07:44:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>82f0365264504c29b1983206a9a40ab1</sys_id>
+        <sys_metadata>f7db648c83ab421020fac310feaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent display_value="">9206d72347170210dc849530116d43c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f7db648c83ab421020fac310feaad327</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f7db648c83ab421020fac310feaad327">b40cec0c83ab421020fac310feaad3a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 07:44:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

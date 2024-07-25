@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>request_for</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Tech support - Request for On Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var ga = new GlideAjax('GetUserDetails');
+    ga.addParam('sysparm_name', 'getUserPhoneDetails');
+    ga.addParam('sys_id', newValue);
+    ga.getXMLAnswer(function(response) {
+
+        //  var answer = response.responseXML.documentElement.getAttribute("answer");
+
+        var userObj = JSON.parse(response);
+
+        if (userObj.mobilePhone !== '')
+            g_form.setValue('contact_number', userObj.mobilePhone, userObj.mobilePhone);
+        else if (userObj.businessPhone !== '')
+            g_form.setValue('contact_number', userObj.businessPhone, userObj.businessPhone);
+        else
+            g_form.setValue('contact_number', '', '');
+    });
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 07:01:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a2ed7ab47170210dc849530116d43ec</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Tech support - Request for On Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_script_client_0a2ed7ab47170210dc849530116d43ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 13:56:44</sys_updated_on>
+        <table>x_1107936_tech_sup_tech_sup</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_script_client_0a2ed7ab47170210dc849530116d43ec</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;request_for&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Tech support - Request for On Change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var ga = new GlideAjax('GetUserDetails');
+    ga.addParam('sysparm_name', 'getUserPhoneDetails');
+    ga.addParam('sys_id', newValue);
+    ga.getXMLAnswer(function(response) {
+
+        //  var answer = response.responseXML.documentElement.getAttribute("answer");
+
+        var userObj = JSON.parse(response);
+
+        if (userObj.mobilePhone !== '')
+            g_form.setValue('contact_number', userObj.mobilePhone, userObj.mobilePhone);
+        else if (userObj.businessPhone !== '')
+            g_form.setValue('contact_number', userObj.businessPhone, userObj.businessPhone);
+        else
+            g_form.setValue('contact_number', '', '');
+    });
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-16 07:01:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0a2ed7ab47170210dc849530116d43ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tech support - Request for On Change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Tech Support" source="x_1107936_tech_sup"&gt;0f5a2aa347130210dc849530116d430c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Tech Support"&gt;0f5a2aa347130210dc849530116d430c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0a2ed7ab47170210dc849530116d43ec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-16 13:56:44&lt;/sys_updated_on&gt;&lt;table&gt;x_1107936_tech_sup_tech_sup&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2082172511</payload_hash>
+        <record_name>Tech support - Request for On Change</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 13:56:44</sys_created_on>
+        <sys_id>964df03383d7021020fac310feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bbd4ce780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 13:56:44</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1e4df0331ad70210fe95cbb6a6462e56</update_guid>
+        <update_guid_history>1e4df0331ad70210fe95cbb6a6462e56:2082172511,6acbe3ef8e5702109a00a659cf960ff1:345478175,54cba3efa4570210ece299d3ff33e9ec:540475540,008b2faf82570210e3e9e5182f0c0643:-1629347508,5a6a676ff8570210aa58a4c2fa0222ab:2132746228,9d59a3ebdc570210533d166b743ef6c5:1371430008,2e97a36bc157021037a8b6cd98414ab3:-1245385949,6937636bee570210c8269a701b661750:-632599509,3be6e7e7405702109bf9e38335d141eb:444240120,5e64e3673a5702100a08b03a63eafd90:-1074648058,a804e323555702106fdf6092c97d3fdc:-378843596,45e1632373570210964cce167bfa7e3e:1050661648,16716fef69170210be8344360a054ed3:-378843596,634e532fc9170210510449613927026c:-50125035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 04:34:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>9dff4ec8bed14f10af09834282f52390</sys_id>
+        <sys_metadata>0a2ed7ab47170210dc849530116d43ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech support - Request for On Change</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent display_value="Tech Supports">b03e50ff83d3021020fac310feaad36c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_script_client_0a2ed7ab47170210dc849530116d43ec</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0a2ed7ab47170210dc849530116d43ec">964df03383d7021020fac310feaad357</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 04:34:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

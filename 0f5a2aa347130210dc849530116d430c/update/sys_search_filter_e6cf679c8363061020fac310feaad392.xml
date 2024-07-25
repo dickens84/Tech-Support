@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Tech Supports">16cf679c8363061020fac310feaad382</ais_search_source>
+        <label>Tech Supports</label>
+        <name>Tech Supports</name>
+        <order>100</order>
+        <search_context_config display_value="Tech Support AI Search Configuration">afbf239c38630610905a327a4be7f150</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:13:35</sys_created_on>
+        <sys_id>e6cf679c8363061020fac310feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech Supports</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_search_filter_e6cf679c8363061020fac310feaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:13:35</sys_updated_on>
+    </sys_search_filter>
+</record_update>

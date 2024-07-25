@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1107936_tech_sup_tech_sup">state=5^support_type=Issue^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item display_value="Issue" endquery="false" field="support_type" goto="false" newquery="false" operator="=" or="false" value="Issue"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    var currentDateTime = new Date();
+    // Get individual components of the date and time
+    var year = currentDateTime.getFullYear();
+    var month = ('0' + (currentDateTime.getMonth() + 1)).slice(-2); // Months are zero-based
+    var day = ('0' + currentDateTime.getDate()).slice(-2);
+    var hours = ('0' + currentDateTime.getHours()).slice(-2);
+    var minutes = ('0' + currentDateTime.getMinutes()).slice(-2);
+    var seconds = ('0' + currentDateTime.getSeconds()).slice(-2);
+
+    // Format as YYYY-MM-DD HH:MM:SS
+    var formattedDateTime = year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+    g_form.setValue('resolved_by', g_user.userID);
+    g_form.setValue('resolved', formattedDateTime);
+}]]></script_true>
+        <set_values/>
+        <short_description>Tech support form: The support type is 'Issue' and the state was 'Closed'</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 11:57:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbda25088323821020fac310feaad3a4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Tech support form: The support type is 'Issue' and the state was 'Closed'</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_ui_policy_dbda25088323821020fac310feaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:11:57</sys_updated_on>
+        <table>x_1107936_tech_sup_tech_sup</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

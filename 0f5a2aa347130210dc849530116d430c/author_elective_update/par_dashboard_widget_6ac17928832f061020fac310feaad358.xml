@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">7497a5a824eb0610b8b4f91c6c2ca188</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Country","wontWrap":false,"hasNoMargin":false,"level":"5","noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 01:41:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ac17928832f061020fac310feaad358</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>par_dashboard_widget_6ac17928832f061020fac310feaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 01:46:57</sys_updated_on>
+        <visualization/>
+        <w>5</w>
+        <widget_props/>
+        <x>33</x>
+        <y>4</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>par_dashboard_widget_6ac17928832f061020fac310feaad358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">7497a5a824eb0610b8b4f91c6c2ca188</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Country","wontWrap":false,"hasNoMargin":false,"level":"5","noDebounce":""}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-19 01:41:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6ac17928832f061020fac310feaad358</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>par_dashboard_widget_6ac17928832f061020fac310feaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-19 01:46:57</sys_updated_on><visualization/><w>5</w><widget_props/><x>33</x><y>4</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1466813753</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 01:46:57</sys_created_on>
+        <sys_id>6103f1a8832f061020fac310feaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c8abbf7a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 01:46:57</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>2903f1a8b62f0610cc75a9293835234e</update_guid>
+        <update_guid_history>2903f1a8b62f0610cc75a9293835234e:-1466813753,f5823968002f06109dd7fd48fefcabd6:1413674695,8c62f9646e2f0610c2bf4adce01cf851:1607221781,1ff17d28af2f06105377052e9b9b7364:-911681562,eac179284c2f0610b0f0409ae09d1059:2045016117</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e10479e8832f061020fac310feaad36b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 01:51:19</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>159de3a10c5944eb82d2f920d5e59b51</sys_id>
+        <sys_metadata>6ac17928832f061020fac310feaad358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_6ac17928832f061020fac310feaad358</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_6ac17928832f061020fac310feaad358">6103f1a8832f061020fac310feaad34f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 01:51:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

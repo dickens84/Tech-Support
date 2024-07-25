@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1107936_tech_sup_tech_sup">support_type=^EQ<item display_value="-- None --" endquery="false" field="support_type" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    g_form.setVisible('approval', false);
+    g_form.setVisible('category', false);
+    var choiceFieldName = 'state';
+    g_form.setValue('category', '0', '--None--');
+    g_form.setValue('approval', 'not requested', 'Not Yet Requested');
+    g_form.clearOptions(choiceFieldName);
+    var options = [{
+        value: '0',
+        label: '--None--'
+    }];
+    options.forEach(function(option) {
+        g_form.addOption(choiceFieldName, option.value, option.label);
+    });
+}]]></script_true>
+        <set_values/>
+        <short_description>Tech Support Form: The support type is 'None'</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 06:26:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9206d72347170210dc849530116d43c6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Tech Support Form: The support type is 'None'</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_ui_policy_9206d72347170210dc849530116d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 11:58:03</sys_updated_on>
+        <table>x_1107936_tech_sup_tech_sup</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_ui_policy_9206d72347170210dc849530116d43c6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1107936_tech_sup_tech_sup"&gt;support_type=^EQ&lt;item display_value="-- None --" endquery="false" field="support_type" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+    g_form.setVisible('approval', false);
+    g_form.setVisible('category', false);
+    var choiceFieldName = 'state';
+    g_form.setValue('category', '0', '--None--');
+    g_form.setValue('approval', 'not requested', 'Not Yet Requested');
+    g_form.clearOptions(choiceFieldName);
+    var options = [{
+        value: '0',
+        label: '--None--'
+    }];
+    options.forEach(function(option) {
+        g_form.addOption(choiceFieldName, option.value, option.label);
+    });
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Tech Support Form: The support type is 'None'&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-16 06:26:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9206d72347170210dc849530116d43c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tech Support Form: The support type is 'None'&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Tech Support" source="x_1107936_tech_sup"&gt;0f5a2aa347130210dc849530116d430c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Tech Support"&gt;0f5a2aa347130210dc849530116d430c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_9206d72347170210dc849530116d43c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-17 11:58:03&lt;/sys_updated_on&gt;&lt;table&gt;x_1107936_tech_sup_tech_sup&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-969803169</payload_hash>
+        <record_name>Tech Support Form: The support type is 'None'</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 11:58:03</sys_created_on>
+        <sys_id>21bb61048323821020fac310feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c08e822b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 11:58:03</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>e5bb61047e238210435e5abb05647860</update_guid>
+        <update_guid_history>e5bb61047e238210435e5abb05647860:-969803169,7fa4b008b0eb421005f99217945a565f:-248799965,1fa1b884f5eb4210befd24efa365dc40:-1124797762,f091bcc038eb421019a262da8caaea22:1591674485,6fe0784441eb421000777f0fd1d5a30c:1259645944,d110fcccfcab421052484146e21f5bed:-1727684927,8bafa08046eb42107aab26028c92e683:-618285624,5cad3433e0d70210d8811f715cc4d977:1595824608,2586d363c6170210e3101b5e0c043027:-1190913696,5d36db237d170210c7b816de36649d92:-515441459,9626d76bd0d30210161ca892534800e0:-146717966</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 08:11:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>2c8b676cc8234b1c8f5ac249a64707a4</sys_id>
+        <sys_metadata>9206d72347170210dc849530116d43c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech Support Form: The support type is 'None'</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent display_value="Tech Supports">b03e50ff83d3021020fac310feaad36c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_9206d72347170210dc849530116d43c6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_9206d72347170210dc849530116d43c6">21bb61048323821020fac310feaad361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 08:11:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

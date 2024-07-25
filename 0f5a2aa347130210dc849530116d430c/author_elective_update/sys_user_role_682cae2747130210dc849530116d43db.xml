@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1107936_tech_sup.tech_support_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>tech_support_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 03:22:33</sys_created_on>
+        <sys_id>682cae2747130210dc849530116d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107936_tech_sup.tech_support_user</sys_name>
+        <sys_package display_value="Tech support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_user_role_682cae2747130210dc849530116d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 03:22:33</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_user_role_682cae2747130210dc849530116d43db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1107936_tech_sup.tech_support_user</name><scoped_admin>false</scoped_admin><suffix>tech_support_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 03:22:33</sys_created_on><sys_id>682cae2747130210dc849530116d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107936_tech_sup.tech_support_user</sys_name><sys_package display_value="Tech support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>sys_user_role_682cae2747130210dc849530116d43db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 03:22:33</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-2144363420</payload_hash>
+        <record_name>x_1107936_tech_sup.tech_support_user</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 03:22:33</sys_created_on>
+        <sys_id>7c2cae2747130210dc849530116d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190b99033740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 03:22:33</sys_updated_on>
+        <type>Role</type>
+        <update_guid>702cae27c8130210c2b9e44c74c357df</update_guid>
+        <update_guid_history>702cae27c8130210c2b9e44c74c357df:-2144363420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1107936_tech_sup.tech_support_user">39355f5883efc21020fac310feaad3f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 14:17:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>5d9b097e1d194a09b179e63fac6d4ce1</sys_id>
+        <sys_metadata>682cae2747130210dc849530116d43db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107936_tech_sup.tech_support_user</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_user_role_682cae2747130210dc849530116d43db</sys_update_name>
+        <sys_update_version display_value="sys_user_role_682cae2747130210dc849530116d43db">7c2cae2747130210dc849530116d43df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 14:17:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Tech Support">ebbf239ce06306104fe155274f30d159</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:13:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e7bf239ca96306107683682003472548</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_ux_page_property_e7bf239ca96306107683682003472548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:13:28</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1107936_tech_sup.ebbf239ce06306104fe155274f30d159.root.listConfigId</unique_name>
+        <value>f0cfa39c8363061020fac310feaad301</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=e7bf239ca96306107683682003472548"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_ux_page_property_e7bf239ca96306107683682003472548</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>listConfigId</name><page display_value="Tech Support">ebbf239ce06306104fe155274f30d159</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-18 16:13:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>e7bf239ca96306107683682003472548</sys_id><sys_mod_count>1</sys_mod_count><sys_name>listConfigId</sys_name><sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>sys_ux_page_property_e7bf239ca96306107683682003472548</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-18 16:13:28</sys_updated_on><type>string</type><unique_name>x_1107936_tech_sup.ebbf239ce06306104fe155274f30d159.root.listConfigId</unique_name><value>f0cfa39c8363061020fac310feaad301</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=e7bf239ca96306107683682003472548"/></record_update>]]></payload>
+        <payload_hash>10441750</payload_hash>
+        <record_name>listConfigId</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:13:28</sys_created_on>
+        <sys_id>c1cfa39c8363061020fac310feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c69eb7570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:13:28</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>89cfa39c116306106ce1e9e91ceee439</update_guid>
+        <update_guid_history>89cfa39c116306106ce1e9e91ceee439:10441750,c1cfa39c3b630610268fb7b0f03e8f38:-2031419327</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:43:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>083fa127b8d047388df7f23ca8124590</sys_id>
+        <sys_metadata>e7bf239ca96306107683682003472548</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_e7bf239ca96306107683682003472548</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_e7bf239ca96306107683682003472548">c1cfa39c8363061020fac310feaad33a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:43:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

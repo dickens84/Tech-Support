@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1107936_tech_sup.GetDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetDetails</name>
+        <script><![CDATA[var GetDetails = Class.create();
+GetDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getUserDetails: function() {
+        var userId = this.getParameter('sys_id');
+        var userGR = new GlideRecord('sys_user');
+        userGR.get("sys_id", userId);
+
+        var userObj = {
+            name: userGR.getDisplayValue('name'),
+            businessPhone: userGR.getDisplayValue('phone'),
+            mobilePhone: userGR.getDisplayValue('mobile_phone'),
+            location: userGR.getDisplayValue('location')
+        };
+        return JSON.stringify(userObj);
+    },
+    getGroupDetails: function() {
+        var groupName = this.getParameter('groupName');
+        var userGR = new GlideRecord('sys_user_group');
+        userGR.get("name", groupName);
+
+        var groupObj = {
+            name: userGR.getDisplayValue('name'),
+            sysId: userGR.getDisplayValue('sys_id')
+        };
+        return JSON.stringify(groupObj);
+    },
+    getFlowContextDetails: function() {
+		var obj = {};
+        var sourceId = this.getParameter('sourceId');
+        var flowContextGr = new GlideRecord('sys_flow_context');
+        flowContextGr.addQuery('source_record', sourceId);
+        flowContextGr.orderByDesc('sys_created_on');
+        flowContextGr.query();
+        if (flowContextGr.next()) {
+            obj = {
+                sysId: flowContextGr.getDisplayValue('sys_id')
+            };
+        
+        }
+		return JSON.stringify(obj);
+    },
+    type: 'GetDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 05:08:32</sys_created_on>
+        <sys_id>7276919c83e3c21020fac310feaad3b3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetDetails</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_script_include_7276919c83e3c21020fac310feaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 08:32:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

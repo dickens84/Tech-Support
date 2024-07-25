@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>resolution_notes</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 12:02:47</sys_created_on>
+        <sys_id>3cbcad888323821020fac310feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resolution_notes</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3cbcad888323821020fac310feaad38b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 12:02:47</sys_updated_on>
+        <table>x_1107936_tech_sup_tech_sup</table>
+        <ui_policy display_value="Tech support form: The support type is 'Issue' and the state was 'Closed'">dbda25088323821020fac310feaad3a4</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3cbcad888323821020fac310feaad38b"/>
+</record_update>

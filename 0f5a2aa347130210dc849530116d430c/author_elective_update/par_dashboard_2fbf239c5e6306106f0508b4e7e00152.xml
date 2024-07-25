@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>Tech Support</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:13:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fbf239c5e6306106f0508b4e7e00152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech Support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>par_dashboard_2fbf239c5e6306106f0508b4e7e00152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:13:24</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>par_dashboard_2fbf239c5e6306106f0508b4e7e00152</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><experience/><grid>48</grid><name>Tech Support</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-18 16:13:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2fbf239c5e6306106f0508b4e7e00152</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tech Support</sys_name><sys_overrides/><sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>par_dashboard_2fbf239c5e6306106f0508b4e7e00152</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-18 16:13:24</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>1849986759</payload_hash>
+        <record_name>Tech Support</record_name>
+        <reverted_from/>
+        <source>abf0f52147220210dc849530116d43b1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-02 11:09:13</sys_created_on>
+        <sys_id>cce0331083a3061020fac310feaad332</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fd8a39fa80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>PAR Dashboard</type>
+        <update_guid>8ce033100fa30610ffaac3caa0b32e32</update_guid>
+        <update_guid_history>8ce033100fa30610ffaac3caa0b32e32:1849986759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tech Support">c8e0331083a3061020fac310feaad333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 16:18:21</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>4186493e17fa47188ba9268e1e534dc1</sys_id>
+        <sys_metadata>2fbf239c5e6306106f0508b4e7e00152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech Support</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>par_dashboard_2fbf239c5e6306106f0508b4e7e00152</sys_update_name>
+        <sys_update_version display_value="par_dashboard_2fbf239c5e6306106f0508b4e7e00152">cce0331083a3061020fac310feaad332</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 16:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

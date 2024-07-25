@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary/>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="tech-support Search Profile">4197a5a892eb06104773431b3d70d88f</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 00:57:04</sys_created_on>
+        <sys_id>ba9769a883eb061020fac310feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.tech-support Search Profile</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_ba9769a883eb061020fac310feaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 00:57:04</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

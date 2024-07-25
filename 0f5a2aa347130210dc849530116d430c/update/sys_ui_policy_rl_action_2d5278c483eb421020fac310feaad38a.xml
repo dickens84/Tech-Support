@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="INSERT_OR_UPDATE">
+        <list>x_1107936_tech_sup_tech_sup.parent_tech_support_number</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 07:47:27</sys_created_on>
+        <sys_id>2d5278c483eb421020fac310feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107936_tech_sup_tech_sup.parent_tech_support_number</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_2d5278c483eb421020fac310feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 07:47:27</sys_updated_on>
+        <ui_policy display_value="Tech Support Form: The support type is 'Request'">b550f08083eb421020fac310feaad3b9</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_rl_action>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Approval">8f9769a883eb061020fac310feaad324</ais_search_source>
+        <label>Approval</label>
+        <name>Approval</name>
+        <order>200</order>
+        <search_context_config display_value="Tech Support AI Search Configuration">b897a5a8d3eb06104ad3ce5a7f214686</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 00:57:05</sys_created_on>
+        <sys_id>839769a883eb061020fac310feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_search_filter_839769a883eb061020fac310feaad32b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 00:57:05</sys_updated_on>
+    </sys_search_filter>
+</record_update>

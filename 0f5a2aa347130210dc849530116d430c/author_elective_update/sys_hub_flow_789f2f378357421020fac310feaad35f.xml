@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>tech_support_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Tech Supports Table","reference":"x_1107936_tech_sup_tech_sup","reference_display":"Tech Supports","type":"table_name","base_type":"table_name","usedInstances":{"bd2d6579-79c7-42dc-a5ac-c88ec4a4cf1e":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.support_type","label":"Trigger - Record Created➛Tech Supports Record➛Support Type","reference":"","reference_display":"Support Type","type":"choice","base_type":"choice","parent_table_name":"x_1107936_tech_sup_tech_sup","column_name":"support_type","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"rawLabel":"-- None --","selected":false,"reference":false,"value":""},{"label":"Request","image":"","used":false,"missing":false,"rawLabel":"Request","selected":false,"reference":false,"value":"Request","parameters":{"name":"x_1107936_tech_sup_tech_sup"}},{"label":"Issue","image":"","used":false,"missing":false,"rawLabel":"Issue","selected":false,"reference":false,"value":"Issue","parameters":{"name":"x_1107936_tech_sup_tech_sup"}}],"usedInstances":{"bd2d6579-79c7-42dc-a5ac-c88ec4a4cf1e":["condition"]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Tech support flow - Create</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 02:55:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>789f2f378357421020fac310feaad35f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Tech support flow - Create</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_hub_flow_789f2f378357421020fac310feaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 04:25:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=789f2f378357421020fac310feaad35f"/>
+    <sys_variable_value action="DELETE" query="document_key=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=789f2f378357421020fac310feaad35f"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=789f2f378357421020fac310feaad35f^sys_idNOT INb89f2f378357421020fac310feaad361"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>789f2f378357421020fac310feaad35f</id>
+        <name>Tech support flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 02:55:41</sys_created_on>
+        <sys_id>b89f2f378357421020fac310feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 02:55:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=b89f2f378357421020fac310feaad361"/>
+    <sys_hub_flow_input action="DELETE" query="model=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_flow_output action="DELETE" query="model=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_action_instance action="DELETE" query="flow=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=789f2f378357421020fac310feaad35f"/>
+    <sys_hub_flow_variable action="DELETE" query="model=789f2f378357421020fac310feaad35f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_789f2f378357421020fac310feaad35f"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_789f2f378357421020fac310feaad35f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_789f2f378357421020fac310feaad35f"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_789f2f378357421020fac310feaad35f"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=789f2f378357421020fac310feaad35f"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=789f2f378357421020fac310feaad35f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_hub_flow_789f2f378357421020fac310feaad35f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access/><acls/><active>false</active><annotation/><attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><display_name_after_preview/><flow_priority/><generation_source/><internal_name>tech_support_flow</internal_name><label_cache>[{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Tech Supports Table","reference":"x_1107936_tech_sup_tech_sup","reference_display":"Tech Supports","type":"table_name","base_type":"table_name","usedInstances":{"bd2d6579-79c7-42dc-a5ac-c88ec4a4cf1e":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.support_type","label":"Trigger - Record Created➛Tech Supports Record➛Support Type","reference":"","reference_display":"Support Type","type":"choice","base_type":"choice","parent_table_name":"x_1107936_tech_sup_tech_sup","column_name":"support_type","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"rawLabel":"-- None --","selected":false,"reference":false,"value":""},{"label":"Request","image":"","used":false,"missing":false,"rawLabel":"Request","selected":false,"reference":false,"value":"Request","parameters":{"name":"x_1107936_tech_sup_tech_sup"}},{"label":"Issue","image":"","used":false,"missing":false,"rawLabel":"Issue","selected":false,"reference":false,"value":"Issue","parameters":{"name":"x_1107936_tech_sup_tech_sup"}}],"usedInstances":{"bd2d6579-79c7-42dc-a5ac-c88ec4a4cf1e":["condition"]}}]</label_cache><latest_snapshot/><master_snapshot/><name>Tech support flow - Create</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 02:55:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>789f2f378357421020fac310feaad35f</sys_id><sys_mod_count>14</sys_mod_count><sys_name>Tech support flow - Create</sys_name><sys_overrides/><sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package><sys_policy/><sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope><sys_update_name>sys_hub_flow_789f2f378357421020fac310feaad35f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 04:25:05</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=789f2f378357421020fac310feaad35f"/><sys_variable_value action="delete_multiple" query="document_key=789f2f378357421020fac310feaad35f"/><sys_hub_trigger_instance action="delete_multiple" query="flow=789f2f378357421020fac310feaad35f"/><sys_hub_flow_stage action="delete_multiple" query="flow=789f2f378357421020fac310feaad35f"/><sys_flow_cat_variable_model action="delete_multiple" query="id=789f2f378357421020fac310feaad35f^sys_idNOT INb89f2f378357421020fac310feaad361"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>789f2f378357421020fac310feaad35f</id><name>Tech support flow</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 02:55:41</sys_created_on><sys_id>b89f2f378357421020fac310feaad361</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 02:55:41</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b89f2f378357421020fac310feaad361"/><sys_hub_flow_input action="delete_multiple" query="model=789f2f378357421020fac310feaad35f"/><sys_hub_flow_output action="delete_multiple" query="model=789f2f378357421020fac310feaad35f"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=789f2f378357421020fac310feaad35f"/><sys_hub_action_instance action="delete_multiple" query="flow=789f2f378357421020fac310feaad35f"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=789f2f378357421020fac310feaad35f"/><sys_hub_flow_logic action="delete_multiple" query="flow=789f2f378357421020fac310feaad35f"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=789f2f378357421020fac310feaad35f"/><sys_hub_flow_variable action="delete_multiple" query="model=789f2f378357421020fac310feaad35f"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_789f2f378357421020fac310feaad35f"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_789f2f378357421020fac310feaad35f"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_789f2f378357421020fac310feaad35f"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_789f2f378357421020fac310feaad35f"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=789f2f378357421020fac310feaad35f"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=789f2f378357421020fac310feaad35f"/></record_update>]]></payload>
+        <payload_hash>-1404811827</payload_hash>
+        <record_name>Tech support flow - Create</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 04:25:06</sys_created_on>
+        <sys_id>ee04488483e7421020fac310feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190beefd16f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 04:25:06</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>260448844de74210470f7a77bc4c005c</update_guid>
+        <update_guid_history>260448844de74210470f7a77bc4c005c:-1404811827,ceb2f7fffe5742101f351e970739b1fd:-1169805876,2c72b3ff6e574210f35565ed229ac643:136737983,cb42ffbf47574210f769a63df2231161:-668256350,e9323fbf5f5742105d151b19cfbe631d:1424223634,b622fbbf0f57421014b0e4690c16902f:-710923732,87413b7fab574210417a8e3a5e3b5b63:49833428,0e70f73f0f5742109c8922164194c70e:2049232308,b030733f955742102710e0a40c3d520a:699263308,9a007ffb74574210c4e2ac6204db96be:1459327368,749f27fbb3574210072cdfb05178e108:-1336270974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 08:53:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>024680af47ba4fe4860235de378e8710</sys_id>
+        <sys_metadata>789f2f378357421020fac310feaad35f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech support flow - Create</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_789f2f378357421020fac310feaad35f</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_789f2f378357421020fac310feaad35f">ee04488483e7421020fac310feaad35c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 08:53:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

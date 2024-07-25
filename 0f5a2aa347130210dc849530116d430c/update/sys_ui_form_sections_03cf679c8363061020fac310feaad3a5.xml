@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="03cf679c8363061020fac310feaad3a5" sys_domain="global" table="x_1107936_tech_sup_tech_sup" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-18 16:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fcf679c8363061020fac310feaad3aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107936_tech_sup_tech_sup" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">03cf679c8363061020fac310feaad3a5</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">cfcf679c8363061020fac310feaad3a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-18 16:13:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-18 16:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97cfa79c8363061020fac310feaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107936_tech_sup_tech_sup" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">03cf679c8363061020fac310feaad3a5</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">47cfa79c8363061020fac310feaad379</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-18 16:13:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-18 16:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfcfa79c8363061020fac310feaad37d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107936_tech_sup_tech_sup" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">03cf679c8363061020fac310feaad3a5</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">dfcfa79c8363061020fac310feaad37c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-18 16:13:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-18 16:13:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97cfa79c8363061020fac310feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107936_tech_sup_tech_sup" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">03cf679c8363061020fac310feaad3a5</sys_ui_form>
+            <sys_ui_section caption="Resolution information" display_value="Resolution information" name="x_1107936_tech_sup_tech_sup" sys_domain="global" view="2fbf239c4b630610a4f06cd3eeff404f">97cfa79c8363061020fac310feaad399</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-18 16:13:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1107936_tech_sup_tech_sup</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-18 16:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03cf679c8363061020fac310feaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107936_tech_sup_tech_sup</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_03cf679c8363061020fac310feaad3a5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-18 16:13:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Tech Support 0" name="workspace-tech-support-0">2fbf239c4b630610a4f06cd3eeff404f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

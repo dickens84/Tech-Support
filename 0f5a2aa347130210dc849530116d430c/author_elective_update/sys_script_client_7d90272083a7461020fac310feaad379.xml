@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Tech support - Onload</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_form.isNewRecord()) {
+        g_form.setReadOnly('support_type', false);
+    } else {
+        g_form.setReadOnly('support_type', true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 09:46:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d90272083a7461020fac310feaad379</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Tech support - Onload</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_update_name>sys_script_client_7d90272083a7461020fac310feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:49:13</sys_updated_on>
+        <table>x_1107936_tech_sup_tech_sup</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech Support">0f5a2aa347130210dc849530116d430c</application>
+        <file_path/>
+        <instance_id>8063b931db7979d038f1172913961915</instance_id>
+        <instance_name>dev182672</instance_name>
+        <name>sys_script_client_7d90272083a7461020fac310feaad379</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Tech support - Onload&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    if (g_form.isNewRecord()) {
+        g_form.setReadOnly('support_type', false);
+    } else {
+        g_form.setReadOnly('support_type', true);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-19 09:46:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7d90272083a7461020fac310feaad379&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tech support - Onload&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Tech Support" source="x_1107936_tech_sup"&gt;0f5a2aa347130210dc849530116d430c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Tech Support"&gt;0f5a2aa347130210dc849530116d430c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7d90272083a7461020fac310feaad379&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-19 09:49:13&lt;/sys_updated_on&gt;&lt;table&gt;x_1107936_tech_sup_tech_sup&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1872701630</payload_hash>
+        <record_name>Tech support - Onload</record_name>
+        <reverted_from/>
+        <source>b18be62747130210dc849530116d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 09:49:13</sys_created_on>
+        <sys_id>0661e76083a7461020fac310feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190ca6547580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:49:13</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ca61e76067a746108341f1083a0227d6</update_guid>
+        <update_guid_history>ca61e76067a746108341f1083a0227d6:-1872701630,b0112f2c88674610a76b472a609ef6a8:920701679,6ed06b20a3a746108c4c444482fb67e4:1041615723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 09:49:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>17716674fa1b42148d63ff22f3dfe490</sys_id>
+        <sys_metadata>7d90272083a7461020fac310feaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech support - Onload</sys_name>
+        <sys_package display_value="Tech Support" source="x_1107936_tech_sup">0f5a2aa347130210dc849530116d430c</sys_package>
+        <sys_parent display_value="Tech Supports">b03e50ff83d3021020fac310feaad36c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech Support">0f5a2aa347130210dc849530116d430c</sys_scope>
+        <sys_scope_delete display_value="">05dc349c05994af0807e34b11ae3e584</sys_scope_delete>
+        <sys_update_name>sys_script_client_7d90272083a7461020fac310feaad379</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7d90272083a7461020fac310feaad379">0661e76083a7461020fac310feaad3d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:49:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
